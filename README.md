@@ -16,3 +16,24 @@ The project uses `ggplot2`, `ggrepel`, `tidyr`, and `forcats` to produce a clean
 - Readable fee annotations
 
 ## 📁 Structure
+football-transfer-lollipops/
+├── transfer_lollipop.R # Main R script
+├── README.md # Project overview
+├── plots/ # Exported images (e.g., PNGs)
+└── data/ # (Optional) Raw transfer data
+
+## 📷 Sample Output
+
+![Sample Plot](plots/lollipop_transfers.png)
+
+## ⚙️ Dependencies
+- ggplot2
+- ggrepel
+- tidyr
+- dplyr
+- forcats
+
+## 🏁 Getting Started
+1. Clone the repo  
+2. Run `transfer_lollipop.R` in RStudio  
+3. Adjust export or aesthetics as needed
